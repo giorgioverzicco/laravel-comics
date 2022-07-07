@@ -1,0 +1,20 @@
+.search-form {
+    display: flex;
+    align-items: center;
+    column-gap: 0.625rem;
+    border-bottom: 0.125rem solid var(--clr-primary-500);
+
+    &__input-text {
+        padding: var(--spacing-1);
+        border: none;
+        outline: none;
+        font-size: var(--fs-sm);
+
+        &::placeholder {
+            font-size: var(--fs-sm);
+            font-weight: var(--fw-bold);
+            color: var(--clr-secondary-700);
+            text-align: right;
+        }
+    }
+}
