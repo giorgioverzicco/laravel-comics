@@ -1,0 +1,23 @@
+.comic-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: var(--spacing-3);
+    width: 10rem;
+    text-decoration: none;
+
+    &__thumbnail {
+        aspect-ratio: 1;
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    &__title {
+        font-size: var(--fs-xs);
+        font-weight: var(--fw-normal);
+        color: var(--clr-secondary-050);
+        text-transform: uppercase;
+        word-break: break-all;
+    }
+}
